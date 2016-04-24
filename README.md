@@ -1,22 +1,33 @@
-# solid-completions
-An [Atom](http://www.atom.io) autocomplete provider for the [Solid CSS framework](http://solid.buzzfeed.com) and generator for `.sublime-completions` autocomplete files.
+## Installation
 
-It will autocomplete your Solid classnames in HTML and HTML-ish (mustache, handlebars, etc) files while also providing access to Solid global variables in SCSS.
+![](http://res.cloudinary.com/dw9fem4ki/image/upload/c_mfit,q_100,w_1000/v1459669769/installation_iscrel.gif)
 
-![Solid Autocomplete Example](https://monosnap.com/file/biBzhqnrIhT6jC0KA5PweeRTtuwN28.png)
+## Activation
 
-## Installation (Atom)
+The extension activates automatically when it finds the `atomizer.json` file in the root of the project directory. A typical file looks like the following,
 
-Use the command palette `cmd-shift-P` and jump to `Settings View: Install Packages and Themes`. Search for `solid-completions` and hit install. That's it!
+```js
+{
+    "input"     : "./app/components/*.html",
+    "output"    : "./app/css/atomic.css",
+    
+    "config"    : {
+        "breakPoints": {
+            "sm": "@media(min-width=750px)",
+            "md": "@media(min-width=1000px)",
+            "lg": "@media(min-width=1200px)"
+        },
+        "custom": {
+            "1": "1px solid #000",
+            "foo": "2px dotted #f00"
+        },
+        "classNames": []
+    }    
+}
+```
 
-## Installation (Sublime)
-Clone the repo to your machine
-`git clone https://github.com/buzzfeed/solid-completions.git`
+> Please restart the editor for the changes to take effect. The autocomplete will work only for the files with the following extensions, `.html`, `.htm`, `.js` and `.jsx`.
 
-Install the modules
-`npm install`
+## Usage
 
-Generate the completions files
-`grunt generate`
-
-Move the resulting `.sublime-completions` files to `~/Library/Application Support/Sublime Text 2/Packages/User/`
+![](http://res.cloudinary.com/dw9fem4ki/image/upload/v1459669466/usage_mtx65l.gif)
