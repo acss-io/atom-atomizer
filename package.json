@@ -1,0 +1,39 @@
+{
+  "name": "atomizer",
+  "productName": "Atomizer",
+  "version": "0.0.0",
+  "description": "A tool to automatically generate Atomic CSS.",
+  "main": "./lib/main.js",
+  "author": {
+    "name": "Pankaj Parashar",
+    "url": "parashar.p.pankaj@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "core:save"
+    ]
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "atomizer": "3.3.4"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
