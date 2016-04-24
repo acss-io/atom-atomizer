@@ -1,7 +1,7 @@
 {
   "name": "atomizer",
   "productName": "Atomizer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A tool to automatically generate Atomic CSS.",
   "main": "./lib/main.js",
   "author": {
