@@ -1,3 +1,12 @@
 .Fw\(100\) {
   font-weight: 100;
 }
+.H\(0\) {
+  height: 0;
+}
+.M\(a\) {
+  margin: auto;
+}
+.P\(100px\) {
+  padding: 100px;
+}

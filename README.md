@@ -1,6 +1,6 @@
 ## Installation
 
-![](http://res.cloudinary.com/dw9fem4ki/image/upload/c_mfit,q_100,w_1000/v1459669769/installation_iscrel.gif)
+![](http://res.cloudinary.com/dw9fem4ki/image/upload/v1461515193/installation_vpeykb.gif)
 
 ## Activation
 
@@ -10,7 +10,7 @@ The extension activates automatically when it finds the `atomizer.json` file in 
 {
     "input"     : "./app/components/*.html",
     "output"    : "./app/css/atomic.css",
-    
+
     "config"    : {
         "breakPoints": {
             "sm": "@media(min-width=750px)",
@@ -30,4 +30,4 @@ The extension activates automatically when it finds the `atomizer.json` file in 
 
 ## Usage
 
-![](http://res.cloudinary.com/dw9fem4ki/image/upload/v1459669466/usage_mtx65l.gif)
+![](http://res.cloudinary.com/dw9fem4ki/image/upload/v1461515193/usage_xxb8ad.gif)
